@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`UserProfile Component > render correctly with hobbies 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      John
+    </h1>
+    <p>
+      Age:25
+    </p>
+    <ul>
+      <li>
+        Sports
+      </li>
+      <li>
+        Cooking
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UserProfile Component > render correctly without hobbies 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      John
+    </h1>
+    <p>
+      Age:25
+    </p>
+    <p>
+      No Hobbies
+    </p>
+  </div>
+</DocumentFragment>
+`;
